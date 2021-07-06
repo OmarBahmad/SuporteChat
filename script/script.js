@@ -13,6 +13,5 @@ function ler(n){
      for(i = 0; i < solucao.length; i++ ){
          solucao[i].className= 'solucao hidden'
      }
-
     solucao[n].className = 'solucao'
 }
