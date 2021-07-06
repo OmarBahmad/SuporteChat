@@ -116,6 +116,7 @@ a {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329) ;
     transition: 0.5s;
     font-size: 1.2em;
+    font-weight: bold;
 }
 
 .box li:hover{
