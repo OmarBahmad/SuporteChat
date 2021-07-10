@@ -23,31 +23,24 @@ a {
 
 /* Menu */
 
+
 .menu{
-    max-width: 1100px;
+    max-width: 1070px;
     margin: 0 auto;
     padding: 15px 0;
-    display: flex;
+    display: block;
     justify-content: space-between;
 }
 
 .menu-logo{
     color: white;
-    font-size: 1.5em;
-    margin: 0 10px;
+    font-size: 1.8em;
+    margin: 10px;
+    text-align: center;
 }
 
 .menu a{
     color: white;
-}
-
-.menua-logo{
-    background-color: thistle;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
 }
 
 .menu-nav ul{
@@ -55,6 +48,9 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
+    border: 2px solid whitesmoke;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .menu-nav a{
