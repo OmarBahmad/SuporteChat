@@ -1,155 +1,159 @@
-body, h1, p, ul, li, a{
-    margin: 0px;
-    padding: 0px;
+body,
+h1,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    font-family: 'Source Sans Pro',Arial, Helvetica, sans-serif;
-    color: #222222;
-    background-color: #179788;
+body {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  color: #222222;
+  background-color: #179788;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Menu */
 
-
-.menu{
-    max-width: 1070px;
-    margin: 0 auto;
-    padding: 15px 0;
-    display: block;
-    justify-content: space-between;
+.menu {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: block;
+  justify-content: space-between;
 }
 
-.menu-logo{
-    color: white;
-    font-size: 1.8em;
-    margin: 10px;
-    text-align: center;
+.menu-logo {
+  color: white;
+  font-size: 1.8em;
+  margin: 10px;
+  text-align: center;
 }
 
-.menu a{
-    color: white;
+.menu a {
+  color: white;
 }
 
-.menu-nav ul{
-    flex: 1 1 260px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    border: 2px solid whitesmoke;
-    justify-content: center;
-    margin: 0 auto;
+.menu-nav ul {
+  flex: 1 1 260px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border: 2px solid whitesmoke;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-.titulo{
-    font-size: 1.5em;
-    display: block;
-    padding:  15px 20px;
-    font-weight: bold;
-    color: darkslategray;
+.titulo {
+  font-size: 1.5em;
+  display: block;
+  padding: 15px 20px;
+  font-weight: bold;
+  color: darkslategray;
 }
 
-.menu-nav a{
-    margin: 0 auto;
-    font-size: 1.5em;
-    display: block;
-    padding:  15px 20px;
-    font-weight: bold;
-    transition: 1s;
+.menu-nav a {
+  margin: 0 auto;
+  font-size: 1.5em;
+  display: block;
+  padding: 15px 20px;
+  font-weight: bold;
+  transition: 1s;
 }
 
-.menu-nav a:hover{
-    color:#222222;
+.menu-nav a:hover {
+  color: #222222;
 }
 
 /* Box */
 
-.box{
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 10px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-
+.box {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.box-1, .box-2{
-    background-color: #ededed;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
-    margin: 25px auto;
-    padding: 15px 20px;
-    line-height: 1.4;
-}
-
-.box-1{
-    width: 500px;
+.box-1,
+.box-2 {
+  background-color: #ededed;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
+  margin: 25px auto;
+  padding: 15px 20px;
+  line-height: 1.4;
 }
 
-.box-1 h1{
-    font-size: 1.8em;
-    padding: 0px 0px 10px 0px;
-    text-align: center;
+.box-1 {
+  width: 500px;
 }
 
-.box-1 ul{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.box-1 h1 {
+  font-size: 1.8em;
+  padding: 0px 0px 10px 0px;
+  text-align: center;
 }
 
-.box-1 li{
-    padding: 10px;
-    background-color: whitesmoke;
-    margin: 15px;
-    width: 90%;
-    border: 1px solid rgba(0, 0, 0, 0.274);
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329) ;
-    transition: 0.5s;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-align: center;
+.box-1 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.box li:hover{
-    background-color: rgba(136, 136, 136, 0.521);
-    color: white;
-    cursor: pointer;
-}
-.box-2{
-    width: 500px;
+.box-1 li {
+  padding: 10px;
+  background-color: whitesmoke;
+  margin: 15px;
+  width: 90%;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+  transition: 0.5s;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
 }
 
-.box-2 h1{
-    font-size: 2em;
-    padding: 0px 0px 10px 0px;
-    text-align: center;
+.box li:hover {
+  background-color: rgba(136, 136, 136, 0.521);
+  color: white;
+  cursor: pointer;
+}
+.box-2 {
+  width: 500px;
+}
+
+.box-2 h1 {
+  font-size: 2em;
+  padding: 0px 0px 10px 0px;
+  text-align: center;
 }
 
 /* Hide */
 
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 
 /* Footer */
 
-.footer{
-    text-align: center;
-    color: white;
-    font-size: 1em;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+.footer {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
 }
